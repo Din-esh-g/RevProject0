@@ -4,7 +4,12 @@ using System.Text;
 
 namespace Project0_Revature
 {
-    class Withdraw
+   public class Withdraw
     {
+        public static double Withdraw()
+        {
+            Console.WriteLine();
+            return balance;
+        }
     }
 }
