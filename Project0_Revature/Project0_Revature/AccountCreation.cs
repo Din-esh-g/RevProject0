@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Project0_Revature
 {
-    class AccountCreation
+   public  class AccountCreation
     {
+        public void AccountNumber()
+        {
+            Random random = new System.Random();
+            int value = random.Next(100907, 2100907); 
+        }
+
     }
 }
