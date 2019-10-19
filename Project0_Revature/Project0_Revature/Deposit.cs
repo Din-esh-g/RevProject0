@@ -8,10 +8,8 @@ namespace Project0_Revature
     {
         public static double _openBalance;
         public static double _deposit;
-        public static double _closeBalance;
-        public static double _loanRepay;
-        public static double _interest;
-        public static double _withdraw;
+       
+     
 
         public static double AmtDeposit()
         {
@@ -21,10 +19,6 @@ namespace Project0_Revature
         }
 
 
-        public static double Balance1()
-        {
-            _closeBalance = _openBalance + _deposit - _withdraw;
-            return _closeBalance;
-        }
+       
     }
 }

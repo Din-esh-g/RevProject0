@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Project0_Revature
 {
-    class CloseAccount
+    public static class CloseAccount
     {
+        public static void closed()
+        {
+            Console.WriteLine("This Method is not Implemented Yet");
+        }
+
+
     }
 }

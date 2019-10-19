@@ -4,12 +4,21 @@ using System.Text;
 
 namespace Project0_Revature
 {
-   public class Withdraw
+   public static class Withdraw
     {
-        public static double Withdraw()
+      
+                
+        public static double _withdraw;
+       
+        
+        public static double Withdraw1()
         {
-            Console.WriteLine();
-            return balance;
+            Console.WriteLine("Please Enter Your Amount You Want To Withdraw. ");
+            //Console.ReadLine();
+           _withdraw = Convert.ToDouble(Console.ReadLine());            
+
+            return _withdraw;
         }
+        
     }
 }
