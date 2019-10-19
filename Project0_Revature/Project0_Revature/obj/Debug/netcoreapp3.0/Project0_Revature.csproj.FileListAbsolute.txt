@@ -1,0 +1,11 @@
+C:\Project0\Project0_Revature\Project0_Revature\bin\Debug\netcoreapp3.0\Project0_Revature.exe
+C:\Project0\Project0_Revature\Project0_Revature\bin\Debug\netcoreapp3.0\Project0_Revature.deps.json
+C:\Project0\Project0_Revature\Project0_Revature\bin\Debug\netcoreapp3.0\Project0_Revature.runtimeconfig.json
+C:\Project0\Project0_Revature\Project0_Revature\bin\Debug\netcoreapp3.0\Project0_Revature.runtimeconfig.dev.json
+C:\Project0\Project0_Revature\Project0_Revature\bin\Debug\netcoreapp3.0\Project0_Revature.dll
+C:\Project0\Project0_Revature\Project0_Revature\bin\Debug\netcoreapp3.0\Project0_Revature.pdb
+C:\Project0\Project0_Revature\Project0_Revature\obj\Debug\netcoreapp3.0\Project0_Revature.csprojAssemblyReference.cache
+C:\Project0\Project0_Revature\Project0_Revature\obj\Debug\netcoreapp3.0\Project0_Revature.AssemblyInfoInputs.cache
+C:\Project0\Project0_Revature\Project0_Revature\obj\Debug\netcoreapp3.0\Project0_Revature.AssemblyInfo.cs
+C:\Project0\Project0_Revature\Project0_Revature\obj\Debug\netcoreapp3.0\Project0_Revature.dll
+C:\Project0\Project0_Revature\Project0_Revature\obj\Debug\netcoreapp3.0\Project0_Revature.pdb
