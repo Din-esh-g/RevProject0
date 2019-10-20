@@ -9,6 +9,11 @@ namespace Project0_Revature
         public static void closed()
         {
             Console.WriteLine("This Method is not Implemented Yet");
+            Transfer.transferList.Clear();
+            AccountCreation.accountCollection.Clear();
+            
+            
+           
         }
 
 
