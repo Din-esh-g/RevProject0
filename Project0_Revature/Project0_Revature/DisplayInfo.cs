@@ -6,6 +6,7 @@ namespace Project0_Revature
 {
     public static class DisplayInfo
     {
+      
         public static void accountList()
         {
             //Console.WriteLine("The User " + UserRegister._firstName + " " + UserRegister._lastName + " has Following Accounts Details.");
@@ -39,11 +40,28 @@ namespace Project0_Revature
 
 
         }
+
+        /*
+         * Dictionary<int, string> dict = new Dictionary<int, string>()
+                                            {
+                                                {1,"One"},
+                                                {2, "Two"},
+                                                {3,"Three"}
+                                            };
+
+foreach (KeyValuePair<int, string> item in dict)
+{
+    Console.WriteLine("Key: {0}, Value: {1}", item.Key, item.Value);
+}
+         
+             */
+
         public static void disaccountList()
         {
-            foreach (int i in AccountCreation.accountCollection)
+            foreach (var i in AccountCreation.accountCollection)
             {
                 Console.WriteLine(i);
+
             }
         }
 
@@ -58,7 +76,8 @@ namespace Project0_Revature
         {
             foreach (double i in Deposit.depositList)
             {
-                Console.WriteLine(i);
+
+                Console.WriteLine("" );
             }
         }
 
@@ -75,6 +94,7 @@ namespace Project0_Revature
             foreach (object i in UserRegister.userList)
             {
                 Console.WriteLine(i);
+                Console.WriteLine("Your Registration Detais\n Full Name : {0} Email address: {1}  UserId:  {2} ", i._firstName + " " + i._lastName, i._emailAddress, i._userId);
             }
         }
 

@@ -30,12 +30,12 @@ namespace Project0_Revature
                 }
                 else
                 {
-                    //Console.WriteLine("Registration is not sucesss. Please try after some time.");
+                    Console.WriteLine("Registration is not sucesss. Please try after some time.");
                     UserRegister.userDetails();
                 }
                 
 
-                if (AccountCreation._totalAccount != 0)
+                if (AccountCreation._totalAccount > 0)
                 {
                     Selection.option2();
                 }
@@ -44,11 +44,10 @@ namespace Project0_Revature
                     Console.WriteLine("Please Register First");
                     UserRegister.userDetails();
                 }
+             
+                
 
-               //Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
-              // DisplayInfo.accountList();
-
-               
+                             
                 }
 
             

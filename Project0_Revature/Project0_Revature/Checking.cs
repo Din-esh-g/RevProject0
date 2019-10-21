@@ -5,7 +5,7 @@ using System.Text;
 namespace Project0_Revature
 {
     
-    public static class Checking
+    public static class Checking: IaccountCreation;
     {
         public static double _chkDepo { get; set; }
         public static double _chkWithdraw { get; set; }
@@ -20,7 +20,12 @@ namespace Project0_Revature
 
 
         }
-      
+        public static int generateAccount()
+        {
+
+        }
+
+
         public static double depositChk()
         {
             Console.WriteLine("Please Enter your amount to deposit");

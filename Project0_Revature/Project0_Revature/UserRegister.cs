@@ -8,7 +8,10 @@ namespace Project0_Revature
     public static class UserRegister
     {
 
-        public static List<object> userList = new List<object>();
+
+
+
+        public static List<string> userList = new List<string>();
         public static int _userId;
         public static string _firstName;
         public static string _lastName;
@@ -64,12 +67,16 @@ namespace Project0_Revature
 
                 Random random = new System.Random();
                 _userId = random.Next(500, 2500);
-                userList.Add(_userId);
+            
+                userList.Add(_userId.ToString());
 
                 _numberOfUser++;
 
-                Console.WriteLine("Thank you for Registration !!!");
-                Selection.option1();
+                Console.WriteLine("Thank you for Registration !!! \n\n");
+
+            Console.WriteLine("Your Registration Detais\n Full Name : {0} Email i: {1}  UserId:  {2} ", _firstName + " "+ _lastName, _emailAddress, _userId);
+            Console.WriteLine("\n\n");
+            Selection.option1();
 
             
         }
@@ -78,7 +85,7 @@ namespace Project0_Revature
         public static bool ValidaterEmail(string email)
         {
             System.Text.RegularExpressions.Regex emailRegex = new System.Text.RegularExpressions.Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
-            System.Text.RegularExpressions.Match emailMatch = emailRegex.Match(email);
+            System.Text.RegularExpressions.Match emailMatch = emailRegex.Match(_emailAddress);
             return emailMatch.Success;
         }
 

@@ -8,6 +8,8 @@ namespace Project0_Revature
     {
         public static double _transferAmt;
         public static List<object> transferList = new List<object>();
+        public static double _transferOut = 0;
+        public static double _transferIn = 0;
 
         public static void TransferAmt()
         {       

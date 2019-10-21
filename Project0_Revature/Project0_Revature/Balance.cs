@@ -17,5 +17,11 @@ namespace Project0_Revature
             return _closeBalance;
 
         }
+        public static double endBalanceWithTransferIn()
+        {
+            _closeBalance = Deposit._openBalance + Deposit._deposit - Withdraw._withdraw + this.Transfer._transferAmt;
+            return _closeBalance;
+
+        }
     }
 }
